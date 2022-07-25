@@ -1099,12 +1099,12 @@
      min-width: 220px;
      min-height: 66px;
      position: absolute;
-     left: 90px;
+     left: -200px;
      top: 0;
  }
  header .logo {
      float: left;
-     margin-left: 20px;
+     margin-left: -1rem;
      margin-right: 50px;
      margin-top: 25px;
      position: relative;
@@ -2157,6 +2157,7 @@
  }
  .services-content {
      max-width: 1200px;
+     
  }
  .services-list {
      margin-top: 1.2rem;
@@ -2444,6 +2445,7 @@
  }
  .contact-info .collapse {
      padding: 0;
+     margin-left: 11rem;
  }
  .contact-info .icon {
      margin-bottom: 2.1rem;
@@ -2624,5 +2626,40 @@
      background: #000000;
  }
  
- /*# sourceMappingURL=main.css.map */
+ @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+ @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+ .centerdiv{
+     height: 10vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    
+ }
+ .deff{
+     height: 50px;
+     width: 50px;
+     
+     border-radius: 50px;
+     text-align: center;
+     margin: 10px;
+
+     line-height: 70px;
+  }
+ .deff i{
+     transition: all 0.3s linear;
+  }
+ .deff:hover i{
+     transform: scale(0.6);
+     color: #cc005f;
+  }
+ .fa-linkedin{
+     color: white;
+ }
+ .fa-facebook{
+    color: white;
+}
+.fa-github{
+    color: white;
+}
  

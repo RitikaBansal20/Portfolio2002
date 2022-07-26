@@ -2295,7 +2295,7 @@
  
  /* contact form */
  .contact-form {
-     max-width: 800px;
+     max-width: 740px;
  }
  
  .contact-form ::-webkit-input-placeholder {
@@ -2445,8 +2445,7 @@
  }
  .contact-info .collapse {
      padding: 0;
-     margin: auto;
-     
+     margin-left: 11rem;
  }
  .contact-info .icon {
      margin-bottom: 2.1rem;
@@ -2657,7 +2656,7 @@
  .fa-linkedin{
      color: white;
  }
- .fa-facebook{
+ .fa-instagram{
     color: white;
 }
 .fa-github{

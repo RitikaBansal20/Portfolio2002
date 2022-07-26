@@ -2657,7 +2657,7 @@
      color: white;
  }
  .fa-instagram{
-    color: white;
+    color: white !important;
 }
 .fa-github{
     color: white;
